@@ -13,6 +13,7 @@ public class SignupLoginTests extends BaseTest{
     @Test(priority = 1, enabled = true)
     void test1(){
         SoftAssert softAssert = new SoftAssert();
+        //comment
         // this is no longer needed as it is creaded in BaseTest and inherit from there
         // WebDriver driver= setUpWebDriver("chrome");
         HomePage homePage= new HomePage(driver);
